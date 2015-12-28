@@ -1,0 +1,124 @@
+
+
+.header{
+	border: 1px black solid;
+	height: 650px;
+	text-align:center;
+	background:url("./img/background_img.png") no-repeat center center fixed;
+	background-size:cover;
+	padding-top:0px;
+}
+
+.header h1{
+	color:black;
+	font-size: 200px;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+.header h3{
+	color:black;
+	font-size: 80px;
+	display:relative;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+.header a button{
+	height: 40px;
+	width: 300px;
+	background-color:#22B25E;
+	color: white;
+	border:none;
+	font-size: Tahoma;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header a button:hover{
+	background-color:white;
+	color: #22B25E;
+}
+
+.extra{
+	border: 1px solid #13252B;
+	height: 300px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #13252B;
+	font-family: Tahoma;
+}
+
+.one_liner{
+	text-align:center;
+	color: white;
+	background-color: #13252B;
+	padding-top: 40px;
+}
+
+.one_liner h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.col-md-4{
+	background-color: #13252B;
+	position:relative;
+	height:300px;
+	padding-top:100px;
+}
+
+.col-md-4 h4{
+	font-size: 40px;
+	color:white;
+	font-family: Tahoma;
+}
+
+.col-md-4 p{
+	font-size: 20px;
+	color:white;
+	font-family: Tahoma;
+}
+
+.col-md-6{
+	background-color:#13252B;
+	padding-top: 10px;
+	height: 60px;
+	font-family: Tahoma;
+	}
+
+
+.col-md-6 p{
+	color:white;
+	margin-top: 20px;
+}
+
+#button{
+	text-align:right;
+	padding-right:80px;
+}
+
+.col-md-6 li button{
+	height: 40px;
+	width: 100px;
+	color: #13252B;
+	background:white;
+	font-weight: bold;
+	border:none;
+	border-radius:5px;
+
+}
+
+.col-md-6 li button:hover{
+	color:white;
+	background-color:#13252B;
+	border: none;
+	border-radius: 5px;
+}
+
+.col-md-6 li{
+	display:inline-block;
+	text-align:right;
+	margin-right: 20px;
+	margin-left:20px;
+}

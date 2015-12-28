@@ -1,0 +1,126 @@
+/*header*/
+.header{
+	height: 110px;
+	background-color:#13252B;
+	color:white;
+}
+
+.header .col-md-4 {
+	height: 100px;
+}
+
+.header .col-md-4 .left{
+	padding-top: 10px;
+}
+
+.header .col-md-4 .left h3{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.header .col-md-4 .left h3:hover{
+	font-weight: bold;
+	font-size:45px;
+}
+
+.header .col-md-4 .left button{
+	background-color: #13252B;
+	border:none;
+}
+
+h3 a{
+	text-decoration: none;
+	color: white;
+}
+
+h3 a:hover{
+	color: white;
+}
+
+.header .col-md-4 .left h5:hover{
+	font-weight:bold;
+}
+
+.header .col-md-4 .center{
+	padding-top: 60px;
+	text-align: center;
+}
+
+.header .col-md-4 .right{
+	padding-top: 60px;
+	margin-left: -60px;
+}
+
+.header .col-md-4 li{
+	margin-left:10px;
+	margin-right:10px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.header .col-md-4 li button{
+	background-color:white;
+	color:#13252B;
+	border: none;
+	border-radius: 5px;
+}
+
+.header .col-md-4 li button:hover{
+	background-color:#13252B;
+	color:white;
+	border:none;
+	border-radius: 5px;
+}
+
+.header .col-md-4 li a{
+	text-decoration: none;
+	color: #13252B;
+}
+
+.header .col-md-4 li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*Middle*/
+
+.middle{
+	border: 1px black solid;
+	height:60%;
+}
+
+.middle .col-md-4{
+	text-align: center;
+	height: 600px;
+	padding-top: 140px;
+}
+
+.middle .col-md-4 h4{
+	font-size: 30px;
+	color: black;
+	margin-top:20px;
+	text-decoration: none;
+}
+
+.middle .col-md-4 img:hover{
+	height: 200px;
+	width: 200px;
+}
+
+.middle .col-md-4 img{
+	height: 175px;
+	width: 175px;
+}
+
+
+.footer{
+	height:80px;
+	color: white;
+	background-color: #13252B;
+	font-family: Tahoma;
+	padding-top: 40px;
+	position:relative;
+	clear:both;
+}
